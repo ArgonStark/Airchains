@@ -8,6 +8,7 @@ wget https://raw.githubusercontent.com/ArgonStark/Airchains/main/Setup-Airchains
 
 Now Run the script to transact : 
 ```
+cd ~
 git clone https://github.com/sarox0987/evmos-farmer.git
 cd evmos-farmer
 ```
@@ -35,6 +36,7 @@ Press ctrl A + D and exit the screen !
 
 Open another screen : 
 ```
+cd ~
 screen -S fix
 ```
 
