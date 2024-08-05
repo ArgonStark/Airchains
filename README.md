@@ -141,3 +141,4 @@ bash fix.sh
 
 Press ctrl A + D and exit !
 
+Main source : https://github.com/cryptoneth/Mix-AirChain-Chasm-Allora-/blob/main/README.md
