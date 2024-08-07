@@ -6,7 +6,7 @@ Run the script :
 wget https://raw.githubusercontent.com/ArgonStark/Airchains/main/Setup-Airchains.sh && chmod +x Setup-Airchains.sh  && ./Setup-Airchains.sh 
 ```
 
-Now Run the script to transact : 
+Run the script to transact : 
 ```
 cd ~
 git clone https://github.com/sarox0987/evmos-farmer.git
@@ -131,7 +131,7 @@ while true; do
 done
 ```
 
-Ctrl X - Enter Y - to save the file . 
+Ctrl X - Enter Y - Press Enter to save the file . 
 
 ```
 chmod +x fix.sh
