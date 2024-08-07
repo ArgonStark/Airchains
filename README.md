@@ -24,12 +24,12 @@ go mod tidy
 go run main.go
 ```
 Enter your EVM private-key 
+
 Enter this for RPC : 
 
 ```
 http://127.0.0.1:17545
 ```
-این رو وارد کنید
 
 
 Press ctrl A + D and exit the screen !
