@@ -81,7 +81,8 @@ echo "Evmosd Started Successfully ..."
 
 # Backup EVM private-key
 cd evm-station
-echo "\043 This is your Evm private-key save it somewhere : \043[0m" /bin/bash ./scripts/local-keys.sh
+echo "This is your Evm private-key save it somewhere :" 
+/bin/bash ./scripts/local-keys.sh
 
 read -p "Did you save your private key? (y/N) " response
 if [[ "$response" != "y" ]]; then
