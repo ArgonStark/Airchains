@@ -83,7 +83,7 @@ echo "Evmosd Started Successfully ..."
 cd evm-station
 echo "\043 This is your Evm private-key save it somewhere : \043[0m" /bin/bash ./scripts/local-keys.sh
 
-read -p "Did you save your private key? (Y/N) " response
+read -p "Did you save your private key? (y/N) " response
 if [[ "$response" != "y" ]]; then
   echo "Please save your private key before continuing."
   exit 1
@@ -127,8 +127,8 @@ wget https://github.com/airchains-network/tracks/releases/download/v0.0.2/eigenl
 chmod +x ./eigenlayer
 ./eigenlayer operator keys create --key-type ecdsa myEigenDAKey
 
-read -p "Did you save your EigenDA key? (Y/N) " response
-if [[ "$response" != "Y" ]]; then
+read -p "Did you save your EigenDA key? (y/N) " response
+if [[ "$response" != "y" ]]; then
   echo "Please save your EigenDA key before continuing."
   exit 1
 fi
@@ -149,8 +149,8 @@ go run cmd/main.go prover v1EVM
 
 node_id=$(cat ~/.tracks/config/sequencer.toml | grep node_id | cut -d '"' -f 2)
 echo "Node ID: $node_id"
-read -p "Did you save your node ID? (Y/N) " response
-if [[ "$response" != "Y" ]]; then
+read -p "Did you save your node ID? (y/N) " response
+if [[ "$response" != "y" ]]; then
   echo "Please save your node ID before continuing."
   exit 1
 fi
